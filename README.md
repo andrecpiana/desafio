@@ -1,6 +1,6 @@
 Desafio - PautaApp
 
-Neste exemplo usamos uma arquitetura REST provendo realizar e atender os requisitos, maximizando o tempo e aproveitando minha experiências. Desenvolvido usando plataforma eclipse, maven, postgres e tomcat (não embutido).
+Neste exemplo usamos uma arquitetura REST provendo realizar e atender os requisitos, maximizando o tempo e aproveitando minhas experiências. Desenvolvido usando plataforma eclipse, maven, postgres e tomcat (não embutido).
 
 *BANCO DA DADOS ESTA EM NUVEM PUBLICA
 
@@ -22,8 +22,8 @@ EndPoints
 /rest/get/resultado/1 - GET
 {
     "pauta": {
-        "codigo": 3,
-        "data": null,
+        "codigo": 1,
+        "data": 12/01/2021,
         "descricao": "Abrir coperativas em cidades com menos de 20 Mil habitantes?",
         "titulo": "ABRIR NOVAS COPERATIVAS",
         "votarPauta": []
