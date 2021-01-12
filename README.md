@@ -1,6 +1,8 @@
 Desafio - PautaApp
 
-Neste exemplo usamos uma arquitetura REST provendo realizar e atender os requisitos, maximizando o tempo e aproveitando minha experiências. Desenvolvido usando plataforma eclipse, maven, postgres e tomcat (não embutido). É sentido que para uma melhor escalabilidade poderiamos adicionar aqui conceitos de mensageria.
+Neste exemplo usamos uma arquitetura REST provendo realizar e atender os requisitos, maximizando o tempo e aproveitando minha experiências. Desenvolvido usando plataforma eclipse, maven, postgres e tomcat (não embutido).
+
+*BANCO DA DADOS ESTA EM NUVEM PUBLICA
 
 Arquitetura Necessária
 - Java 1.8
