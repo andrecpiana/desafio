@@ -2,6 +2,7 @@ Desafio - PautaApp
 
 Neste exemplo usamos uma arquitetura REST provendo realizar e atender os requisitos, maximizando o tempo e aproveitando minhas experiências. Desenvolvido usando plataforma eclipse, maven, postgres e tomcat (não embutido).
 
+*Para rodar basta adicionar o .war na Web Module.
 *BANCO DA DADOS ESTA EM NUVEM PUBLICA
 
 Arquitetura Necessária
