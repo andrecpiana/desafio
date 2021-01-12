@@ -10,7 +10,7 @@ public class ResultRest {
 	
 	public static final String STATUS_VOTO = "UNABLE_TO_VOTE" ;
 	
-	public static final String TIME_ERROR = "TEMPO_ESGOTADO" ;
+	public static final String TIME_ERROR = "FECHADO" ;
 	
 	public static final String PARAMETER_ERROR = "PARAMETER_ERROR" ;
 	

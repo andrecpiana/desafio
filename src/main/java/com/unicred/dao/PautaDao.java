@@ -76,7 +76,7 @@ public class PautaDao {
 
 	
 		StringBuilder sql = new StringBuilder();
-		sql.append("select 1 from pauta where current_timestamp <= data_inicio + (1 * interval '1 minute') and codigo = ?");
+		sql.append("select 1 from pauta where current_timestamp <= data_inicio + (1 * interval '1 minute') and aberto = 1 and codigo = ?");
 			
 		try {
 			con = Configuracao.getInstancia().getConexao();
@@ -84,8 +84,7 @@ public class PautaDao {
 			pstmt.setInt(1,  pautaParameter.getCodigo());
 			rs = pstmt.executeQuery();
 			if (rs.next()) {
-				return false;
-				
+				return true;				
 			}
 		} finally {
 			try {
@@ -94,7 +93,7 @@ public class PautaDao {
 			} catch (Exception e) {}
 		}
 		System.out.println("return true validaTempo");
-		return true;
+		return false;
 	}
 	
 	public ReportPauta buscaRelatorio(int codigo) throws Exception  {

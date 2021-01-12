@@ -76,7 +76,7 @@ public class RestService {
 			resultService = pautaService.votaPauta(votarPautaParameter);
 			
 			if (resultService.getStatus().equals(ResultRest.STATUS_OK)){
-				return Response.status(200).build(); 
+				return Response.status(200).entity( resultService  ).build(); 
 			} else if (resultService.getStatus().equals(ResultRest.STATUS_CODE_ERRO_SQL)){
 				return Response.status(200).entity( resultService  ).build(); 
 			} else {
