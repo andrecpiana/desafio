@@ -11,6 +11,7 @@ Arquitetura Necessária
 - TomCat7 ou 8
 
 EndPoints
+
 /rest/pauta/criar - POST
 { "codigo": 1, "titulo" : "ABRIR NOVAS COPERATIVAS", "descricao" : "Abrir coperativas em cidades com menos de 20 Mil habitantes?" }
 
